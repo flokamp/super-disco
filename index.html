@@ -4,18 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
     <title>Work Day Scheduler</title>
   </head>
 
@@ -26,10 +17,99 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
-    </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/1.25.0/luxon.min.js" integrity="sha512-OyrI249ZRX2hY/1CAD+edQR90flhuXqYqjNYFJAiflsKsMxpUYg5kbDDAVA8Vp0HMlPG/aAl1tFASi1h4eRoQw==" crossorigin="anonymous"></script>
-    <script src="./assets/js/script.js"></script>
+      <!-- 9AM -->
+      <div class="input-group input-group-lg" id="10">
+        <div class="input-group-prepend">
+          <span class="input-group-text rounded-0 bg-light text-dark" style="width: 100px;"  id="inputGroup-sizing-lg">9 AM</span>
+        </div>
+        <textarea class="form-control"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary rounded-0" type="button">Save</button>
+        </div>
+      </div>
+      <!-- 10AM -->
+      <div class="input-group input-group-lg" id="11">
+        <div class="input-group-prepend">
+          <span class="input-group-text rounded-0 bg-light text-dark" style="width: 100px;"  id="inputGroup-sizing-lg">10 AM</span>
+        </div>
+        <textarea class="form-control"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary rounded-0" type="button">Save</button>
+        </div>
+      </div>
+      <!-- 11PM -->
+      <div class="input-group input-group-lg" id="11">
+        <div class="input-group-prepend">
+          <span class="input-group-text rounded-0 bg-light text-dark" style="width: 100px;"  id="inputGroup-sizing-lg">11 AM</span>
+        </div>
+        <textarea class="form-control"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary rounded-0" type="button">Save</button>
+        </div>
+      </div>
+      <!-- 12PM -->
+      <div class="input-group input-group-lg" id="12">
+        <div class="input-group-prepend">
+          <span class="input-group-text rounded-0 bg-light text-dark" style="width: 100px;"  id="inputGroup-sizing-lg">12 PM</span>
+        </div>
+        <textarea class="form-control"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary rounded-0" type="button">Save</button>
+        </div>
+      </div>
+      <!-- 1PM -->
+      <div class="input-group input-group-lg" id="13">
+        <div class="input-group-prepend">
+          <span class="input-group-text rounded-0 bg-light text-dark" style="width: 100px;"  id="inputGroup-sizing-lg">1 PM</span>
+        </div>
+        <textarea class="form-control"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary rounded-0" type="button">Save</button>
+        </div>
+      </div>
+      <!-- 2PM -->
+      <div class="input-group input-group-lg" id="14">
+        <div class="input-group-prepend">
+          <span class="input-group-text rounded-0 bg-light text-dark" style="width: 100px;"  id="inputGroup-sizing-lg">2 PM</span>
+        </div>
+        <textarea class="form-control"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary rounded-0" type="button">Save</button>
+        </div>
+      </div>
+      <!-- 3PM -->
+      <div class="input-group input-group-lg" id="15">
+        <div class="input-group-prepend">
+          <span class="input-group-text rounded-0 bg-light text-dark" style="width: 100px;"  id="inputGroup-sizing-lg">3 PM</span>
+        </div>
+        <textarea class="form-control"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary rounded-0" type="button">Save</button>
+        </div>
+      </div>
+      <!-- 4PM -->
+      <div class="input-group input-group-lg" id="16">
+        <div class="input-group-prepend">
+          <span class="input-group-text rounded-0 bg-light text-dark" style="width: 100px;"  id="inputGroup-sizing-lg">4 PM</span>
+        </div>
+        <textarea class="form-control"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary rounded-0" type="button">Save</button>
+        </div>
+      </div>
+       <!-- 5PM -->
+       <div class="input-group input-group-lg" id="17">
+        <div class="input-group-prepend">
+          <span class="input-group-text rounded-0 bg-light text-dark" style="width: 100px;"  id="inputGroup-sizing-lg">5 PM</span>
+        </div>
+        <textarea class="form-control"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary rounded-0" type="button">Save</button>
+        </div>
+      </div>
+      
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
