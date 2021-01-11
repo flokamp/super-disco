@@ -25,8 +25,14 @@ textarea {
   white-space: pre-wrap;
 }
 
-.time-block {
+#currentDay {
   text-align: center;
+  background-color: rgb(31, 31, 31);
+  color: white;
+  padding: 16px;
+  width: 30%;
+  margin: auto;
+  border-radius: 8px;
 }
 
 .row {
@@ -53,4 +59,9 @@ textarea {
 .future {
   background-color: #77dd77;
   color: white;
+}
+
+i.far {
+  font-size: 24px;
+  padding: 12px;
 }
